@@ -1,0 +1,11 @@
+.name {
+    background-color: yellow;
+    width: 250px;
+    border-radius: 6px;
+    margin: 0 auto 15px auto;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sono', sans-serif;
+    cursor: pointer;
+}

@@ -1,10 +1,12 @@
 import React from "react";
-import { Pokemon } from "../components/Pokemon/index.jsx";
+import { Pokemon } from "../../components/Pokemon/index.jsx";
+import styles from "./styles.module.css";
+import PokemonLogo from "../../assets/imgs/pokemon-logo.png";
 
 export const Home = () => {
   return (
-    <div>
-      <h1>Meu site de Pokemon</h1>
+    <div className={styles.container}>
+      <img className={styles.imagem} alt="Logo pokemon" src={PokemonLogo} />
       <Pokemon name="Pikachu" tipo="Elétrico" />
       <Pokemon name="Charizard" tipo="Fogo" />
       <Pokemon name="Squirtle" tipo="Água" />
